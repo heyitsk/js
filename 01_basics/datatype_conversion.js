@@ -11,4 +11,10 @@ console.log(valueInBoolean);
 // 1 > true, 0 > false
 // "" > false, "abc" > true
 
+// ********OPERATIONS*********
+ 
+console.log("1"+2+3);
+console.log(1+2+"3");
 
+// when string first then other var treated as strings only and conversion to integer will not occur 
+// when string at last conversion to integer will occur 
