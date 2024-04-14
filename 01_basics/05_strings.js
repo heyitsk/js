@@ -7,4 +7,6 @@ const newStr = new String ("kush-agra");
 console.log(newStr);
 // this is another method of creating a string. We use this to envoke objects. When we paste it in the console it shows an object with each letter of string as key value pair (0:"k" 1:"u" etc)
 console.log(newStr[0]); // since this comes out as object we can access the value using keys 
+// can add multiple methods in strings like 
+console.log(`my name is ${name.toUpperCase().includes()} and my age is ${age}`);
 
