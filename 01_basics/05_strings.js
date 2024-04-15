@@ -9,4 +9,5 @@ console.log(newStr);
 console.log(newStr[0]); // since this comes out as object we can access the value using keys 
 // can add multiple methods in strings like 
 console.log(`my name is ${name.toUpperCase().includes()} and my age is ${age}`);
+// in all these methods the original string doesn't changes it just creates copy of the string and changes it as we learned the concept in stack memory 
 
